@@ -1,0 +1,7 @@
+show
+help
+execute_script comtex.txt
+
+#тут какой-то скрипт
+
+
