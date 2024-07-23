@@ -2,8 +2,6 @@ package Server;
 
 
 import Server.Comands.Core.CommandInvoker;
-//import Server.Console.CsvFileParser;
-//import Server.Console.FileParser;
 import lombok.Data;
 
 import java.util.Scanner;
@@ -19,7 +17,6 @@ public class Context {
     private CommandDatabase commandDatabase = new CommandDatabase(commandInvoker);
     private DatabaseHumanBeings databaseHumanBeings = new DatabaseHumanBeings();
 
-//    private FileParser<HumanBeing> fileParser;
     private Scanner scanner = new Scanner(System.in);
 
     private boolean isInFile;
@@ -34,7 +31,4 @@ public class Context {
         return input.apply(userlogin);
     }
 
-//    public Context(String filename) {
-//        fileParser = new CsvFileParser<>(filename, HumanBeing.class);
-//    }
 }
