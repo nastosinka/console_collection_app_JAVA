@@ -4,11 +4,6 @@ package Server;
 import Server.Comands.Core.CommandInvoker;
 import Server.Comands.scripts.*;
 
-/**
- * Класс CommandDatabase
- * @author nastosinka
- * Часть паттерна Command для работы со словарём команд - хранение команд.
- */
 
 public class CommandDatabase {
     public CommandDatabase(CommandInvoker commandInvoker) {
